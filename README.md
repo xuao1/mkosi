@@ -31,6 +31,20 @@ It can also be virtualized with `QEMU/KVM`:
 qemu-system-x86_64 -m 512 -smp 2 -bios /usr/share/ovmf/OVMF.fd -drive format=raw,file=image.raw
 ```
 
+## convert
+
+To convert it to vmdk, so that we can run it on vmware or virtualbox:
+
+```shell
+qemu-img convert -pO vmdk image.raw dest.vmdk
+```
+
+[vmdk](https://baike.baidu.com/item/vmdk/3369989)
+
+Remember using UEFI:
+
+> 虚拟机-设置-选项-高级
+
 ## References
 
 + [mkosi — A Tool for Generating OS Images](http://0pointer.net/blog/mkosi-a-tool-for-generating-os-images.html) indroductory blog post by Lennart Poettering
