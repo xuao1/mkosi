@@ -47,7 +47,7 @@ Remember using UEFI:
 
 ## References
 
-+ [mkosi — A Tool for Generating OS Images](http://0pointer.net/blog/mkosi-a-tool-for-generating-os-images.html) indroductory blog post by Lennart Poettering
++ [mkosi — A Tool for Generating OS Images](http://0pointer.net/blog/mkosi-a-tool-for-generating-os-images.html) 
 
 - [Primary mkosi git repository on GitHub](https://github.com/systemd/mkosi/)
 - [mkosi - ArchWiki (archlinux.org)](https://wiki.archlinux.org/title/Mkosi)
