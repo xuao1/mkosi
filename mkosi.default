@@ -22,7 +22,11 @@ RootSize=5G
 
 [Packages]
 # The packages to appear in the final image
+<<<<<<< HEAD
 Packages=xfce4 xfce4-goodies xinit xserver-xorg
+=======
+Packages=ssh
+>>>>>>> refs/remotes/origin/main
 
 
 # let mkosi.postinst access the internet
@@ -33,4 +37,4 @@ WithNetwork=yes
 
 [Validation]
 # root password
-Password=11
+Password=root
