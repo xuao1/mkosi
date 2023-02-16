@@ -22,7 +22,7 @@ RootSize=5G
 
 [Packages]
 # The packages to appear in the final image
-Packages=nano less tmux ssh dnsutils curl
+Packages=xfce4 xfce4-goodies xinit xserver-xorg
 
 
 # let mkosi.postinst access the internet
